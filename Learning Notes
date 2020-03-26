@@ -1,0 +1,8 @@
+#Enzyme is a tool which creates a virtual DOM.
+#Enzyme has a shallow rendering not mount rendering
+#Enzyme has access of the props
+
+TYPES OF TEST:
+#Unit Test
+#Integration tests 
+#Acceptance / End-to-end(E2E) Tests 
