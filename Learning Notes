@@ -1,8 +1,12 @@
 #Enzyme is a tool which creates a virtual DOM.
 #Enzyme has a shallow rendering not mount rendering
+#Shallow rendering is just checking the component
+#Mount rendering is checking the component as well as child elements of component
 #Enzyme has access of the props
 
 TYPES OF TEST:
 #Unit Test
 #Integration tests 
 #Acceptance / End-to-end(E2E) Tests 
+
+#To remove the test-attribute we need to install the (babel-plugin-react-remove-properties) and conigure the babel section on the package.json
