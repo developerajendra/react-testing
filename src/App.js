@@ -1,12 +1,21 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+
+import GuessedWords from './GuessedWords';
+import Congrats from './Congrats';
+
+
 
 class App extends Component {
   render(){
       return (
-        <div data-test="component-app">
-          <h1>App</h1>
+        <div className="container" data-test="component-app">
+          <h1>Jotto App</h1>
+           <Congrats success={true} />
+           <GuessedWords guessedWords={[
+             {guessedWords:'train', letterMatchCount:3}
+           ]} />
         </div>
       );
   }

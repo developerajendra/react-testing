@@ -12,8 +12,8 @@ const GuessedWords = (props => {
     let contents = props.guessedWords.length  ? 
     <div data-test="guessed-words">
         <h3>Guessed Words</h3>
-        <table>
-            <thead>
+        <table className="table table-sm">
+            <thead className="thead-light">
                 <tr>
                     <th>Guess</th>
                     <th>Matchng Letters</th>
