@@ -1,6 +1,12 @@
+import { actionTypes } from "../actions";
 
-const success  = (state, action ) => {
-    return null;
+export default(state=false, action ) => {
+   switch(action.type){
+       case actionTypes.CORRECT_GUESS:
+           return true;
+        default:
+           return state;
+   }
 };
 
-export default success;
+ 
