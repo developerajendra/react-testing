@@ -1,4 +1,6 @@
 import {actionTypes} from '../actions';
+ 
+
 
 /**
  * guess word reducer
